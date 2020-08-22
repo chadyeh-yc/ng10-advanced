@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
+import { BlankComponent } from './blank/blank.component';
 
 
 @NgModule({
-  declarations: [PagesComponent],
+  declarations: [PagesComponent, BlankComponent],
   imports: [
     CommonModule,
     PagesRoutingModule
