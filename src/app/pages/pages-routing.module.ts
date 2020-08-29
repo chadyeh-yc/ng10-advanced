@@ -10,7 +10,6 @@ const routes: Routes = [
   { path: 'blank2', loadChildren: () => import('./blank2/blank2.module').then(m => m.Blank2Module) },
 ];
 
-
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
